@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: gray;
+}
+
+#header{
+    border-bottom: 1px solid;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header>div{
+    margin: 2%;
+}
+
+#external-btn{
+    display: flex;
+    gap :10px;
+}
+
+#external-btn>div{
+    cursor: pointer;
+}
+
+/* signup-page css */
+
+#signup-page{
+    height: 60vh;
+    margin: 10px;
+    display: block;
+}
+
+#signup-form{
+    height: 60%;
+    width: 50%;
+   margin-top: 10%;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+}
+
+#signup-form>div{
+    padding: 10px;
+    margin: 20px;
+    border-bottom: 1px solid;
+}
+
+#signup-form>p{
+    padding: 10px;
+    margin: 20px;
+}
+
+#signup-form>div>input{
+    width: 80%;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+#signup-btn{
+    padding: 10px;
+    margin-left: 5%;
+    width: 25%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message{
+    display: none;
+}
+
+/* profile-page css */
+
+#profile-page{
+    height: 60vh;
+    margin: 3%;
+}
+
+#profile-page> div h3,h1{
+    color: white;
+}
+
+.profile-info{
+    display: flex;
+    gap:5px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.profile-info>div{
+    color: aqua;
+}
+
+#logout-btn{
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 15%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
